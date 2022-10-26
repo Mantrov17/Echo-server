@@ -10,6 +10,6 @@ sock.send(msg.encode())
 msg = 'world!'
 sock.send(msg.encode())
 
-print(sock.recv(1024).decode()
+print(sock.recv(1024).decode())
 
 sock.close()
